@@ -1,9 +1,16 @@
 @import 'normalize.css';
-
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;600&display=swap');
 
 :root {
-    ---primary: rgb(254, 44, 85);
+    --primary: rgb(254, 44, 85);
+
+    --default-layout-header-height: 60px;
+    --default-layout-header-width: 1150px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 html {
     font-size: 62.5%;
